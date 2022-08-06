@@ -1,0 +1,15 @@
+{
+  "name": "asus/zura",
+  "authors": [
+    {
+      "name": "josipfrljic94",
+      "email": "josipfrljic77@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": ""
+    }
+  }
+}
