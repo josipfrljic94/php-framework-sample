@@ -56,6 +56,7 @@ abstract class Model
 
     public function addError(string $attribute, string $rule, $params = [])
     {
+        echo $attribute . ': ' . $rule . ': ';
         $message = $this->errorMessages()[$rule] ?? "";
         if (count($params) > 0) {
             $descWord = $params[$rule];
